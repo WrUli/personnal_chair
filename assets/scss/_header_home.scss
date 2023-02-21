@@ -1,0 +1,47 @@
+header {
+    background-image: url("../img/AdobeStock_136793876-1-scaled.jpeg");
+    height: 420px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header_fade {
+    height: 420px;  
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.751);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_text {
+    position: relative;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 52px;
+    color: white;
+    line-height: 45px;
+}
+
+.header_tittle {
+    padding: 20px 0 50px 0;
+}
+
+.header_secondtittle {
+    font-size: 40px;
+}
+
+.header_p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+header a {
+    font-size: 22px;
+    color: #C2B051;
+    font-weight: 600;
+}

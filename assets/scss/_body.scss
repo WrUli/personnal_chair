@@ -1,0 +1,133 @@
+.bio_and_img {
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+
+.bio_left {
+    height: auto;
+    width: 50%;
+    background-color: #FFFEF8;
+    text-align: center;
+
+    h2 {
+        padding: 75px 0 25px 0;
+        color: #B6A133;
+        font-size: 20px;
+    }
+    p {
+        color: #707070;
+        font-size: 16px;
+    }
+    p:last-of-type{
+        padding-bottom: 25px;
+    }
+}
+
+.bio_left_para_spacing {
+    padding-top: 25px;
+}
+
+.bio_left_img {
+    background-image: url("../img/CoolClips_peop3820.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 1px solid #880000;
+}
+
+.bio_right {
+    height: auto;
+    width: 50%;
+    background-image: url("../img/6cc94ce175e437283fd71c16a511ea12.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.mb_tittle {
+    padding: 175px 0 125px 0;
+    background-color: #25252d;
+    text-align: center;
+    color: #B6A133;
+    font-size: 20px;
+}
+
+.best_img {
+    height: 800px;
+    background-image: url("../img/Industrial-Modern-Decor-Home.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.best_fade {
+    height: 800px;  
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.605);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.best_background {
+    height: 750px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #FFFEF8;
+    color: #707070;
+    text-align: center;
+    position: absolute;
+    top: -5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.best_ranked_line {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 17px;
+}
+
+.best_ranked_img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 1px solid #880000;
+    background-size: cover;
+    background-position: center;
+}
+
+.br_img1 {
+    background-image: url("../img/chaise-industrielle-drawer.jpg.webp");
+}
+
+.br_img2 {
+    background-image: url("../img/MB_chaise_industrielle1.jpg.webp");
+}
+
+.br_img3 {
+    background-image: url("../img/chaise-industrielle-30.jpg.webp");
+}
+
+.br_txt_box1 {
+    width: 140px;
+}
+
+.br_txt_box2 {
+    width: 650px;
+}
+
+.line1 {
+    padding-top: 50px;
+}
+
