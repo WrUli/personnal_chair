@@ -147,6 +147,7 @@
     <footer>
         <div class="footer_brand">
             <p>Industri'chair.com</p>
+            <p>a</p>
         </div>
     </footer>
 
