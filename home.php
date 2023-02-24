@@ -1,3 +1,9 @@
+<?php
+session_start();
+include_once('environnement.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,25 +18,16 @@
 <body>
 
     <header>
-        <div class="header_fade"></div>
-        <div class="header_text">
-            <ul class="header_nav">
-                <li><i class="fa-solid fa-circle-user"></i></li>
-                <li>Se connecter</li>
-            </ul>
-            <div class="header_tittle">
-                <h1>Industri'</h1>
-                <h1 class="header_secondtittle">chair.com</h1>
-            </div>
-            <div class="header_p">
-                <p>L’assise industrielle vu par un passionné, pour</p>
-                <p>des passionnés</p>
-            </div>
-            <a href="gallery.php"> > VOIR LA COLLECTION, LE BLOG < </a>
-        </div>
+    <div class="header_fade"></div>
+    <div class="header_text">
+        <?php include_once ('nav.php'); ?>
+        <a href="gallery.php" class="btn_header"> > VOIR LA COLLECTION < </a>
+    </div>
     </header>
 
     <body>
+
+
 
         <main class="bio_and_img">
             <section class="bio_left">

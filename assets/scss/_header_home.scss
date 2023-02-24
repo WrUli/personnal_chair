@@ -24,11 +24,11 @@ header {
 header h1 {
     font-size: 52px;
     color: white;
-    line-height: 45px;
+    line-height: 20px;
 }
 
 .header_tittle {
-    padding: 20px 0 50px 0;
+    padding: 40px 0 40px 0;
 }
 
 .header_secondtittle {
@@ -37,10 +37,12 @@ header h1 {
 
 .header_p {
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
-header a {
+
+
+.btn_header {
     font-size: 22px;
     color: #C2B051;
     font-weight: 600;
